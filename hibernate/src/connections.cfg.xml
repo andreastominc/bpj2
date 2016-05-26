@@ -6,8 +6,8 @@
 <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
 <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hibernate_test</property>
 <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
-<property name="hibernate.connection.username">ato2</property>
-<property name="hibernate.connection.password">ato2</property>
+<property name="hibernate.connection.username">hibernate_test</property>
+<property name="hibernate.connection.password">hibernate_test</property>
 <!-- autocommit disable -->
 <property name="hibernate.connection.autocommit">false</property>
 <!-- sql query shown -->

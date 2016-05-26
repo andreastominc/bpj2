@@ -2,41 +2,24 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="C:/Users/Andreas Tominc/Downloads/mysql-connector-java-5.1.38/mysql-connector-java-5.1.38-bin.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Andreas Tominc/Downloads/hibernate-release-5.1.0.Final/lib/required/antlr-2.7.7.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Andreas Tominc/Downloads/hibernate-release-5.1.0.Final/lib/required/classmate-1.3.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Andreas Tominc/Downloads/hibernate-release-5.1.0.Final/lib/required/dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Andreas Tominc/Downloads/hibernate-release-5.1.0.Final/lib/required/geronimo-jta_1.1_spec-1.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Andreas Tominc/Downloads/hibernate-release-5.1.0.Final/lib/required/hibernate-commons-annotations-5.0.1.Final.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Andreas Tominc/Downloads/hibernate-release-5.1.0.Final/lib/required/hibernate-core-5.1.0.Final.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Andreas Tominc/Downloads/hibernate-release-5.1.0.Final/lib/required/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Andreas Tominc/Downloads/hibernate-release-5.1.0.Final/lib/required/jandex-2.0.0.Final.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Andreas Tominc/Downloads/hibernate-release-5.1.0.Final/lib/required/javassist-3.20.0-GA.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Andreas Tominc/Downloads/hibernate-release-5.1.0.Final/lib/required/jboss-logging-3.3.0.Final.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Andreas Tominc/Downloads/hibernate-release-5.1.0.Final/lib/osgi/hibernate-osgi-5.1.0.Final.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Andreas Tominc/Downloads/hibernate-release-5.1.0.Final/lib/osgi/org.osgi.compendium-4.3.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Andreas Tominc/Downloads/hibernate-release-5.1.0.Final/lib/osgi/org.osgi.core-4.3.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Andreas Tominc/Downloads/hibernate-release-5.1.0.Final/lib/envers/hibernate-envers-5.1.0.Final.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Andreas Tominc/Downloads/hibernate-release-5.1.0.Final/lib/java8/hibernate-java8-5.1.0.Final.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Andreas Tominc/Downloads/hibernate-release-5.1.0.Final/lib/jpa/hibernate-entitymanager-5.1.0.Final.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Andreas Tominc/Downloads/hibernate-release-5.1.0.Final/lib/jpa-metamodel-generator/hibernate-jpamodelgen-5.1.0.Final.jar"/>
-	<classpathentry kind="lib" path="D:/Dropbox/Dropbox/FH/4. Semester/BPJ2 - Begleitetes Projekt 2/Projekt/00_Technologien/JDBC/mysql-connector-java-5.1.38/mysql-connector-java-5.1.38-bin.jar"/>
-	<classpathentry kind="lib" path="D:/Dropbox/Dropbox/FH/4. Semester/BPJ2 - Begleitetes Projekt 2/Projekt/00_Technologien/JDBC/hibernate-release-5.1.0.Final/lib/required/antlr-2.7.7.jar"/>
-	<classpathentry kind="lib" path="D:/Dropbox/Dropbox/FH/4. Semester/BPJ2 - Begleitetes Projekt 2/Projekt/00_Technologien/JDBC/hibernate-release-5.1.0.Final/lib/required/classmate-1.3.0.jar"/>
-	<classpathentry kind="lib" path="D:/Dropbox/Dropbox/FH/4. Semester/BPJ2 - Begleitetes Projekt 2/Projekt/00_Technologien/JDBC/hibernate-release-5.1.0.Final/lib/required/dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="D:/Dropbox/Dropbox/FH/4. Semester/BPJ2 - Begleitetes Projekt 2/Projekt/00_Technologien/JDBC/hibernate-release-5.1.0.Final/lib/required/geronimo-jta_1.1_spec-1.1.1.jar"/>
-	<classpathentry kind="lib" path="D:/Dropbox/Dropbox/FH/4. Semester/BPJ2 - Begleitetes Projekt 2/Projekt/00_Technologien/JDBC/hibernate-release-5.1.0.Final/lib/required/hibernate-commons-annotations-5.0.1.Final.jar"/>
-	<classpathentry kind="lib" path="D:/Dropbox/Dropbox/FH/4. Semester/BPJ2 - Begleitetes Projekt 2/Projekt/00_Technologien/JDBC/hibernate-release-5.1.0.Final/lib/required/hibernate-core-5.1.0.Final.jar"/>
-	<classpathentry kind="lib" path="D:/Dropbox/Dropbox/FH/4. Semester/BPJ2 - Begleitetes Projekt 2/Projekt/00_Technologien/JDBC/hibernate-release-5.1.0.Final/lib/required/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
-	<classpathentry kind="lib" path="D:/Dropbox/Dropbox/FH/4. Semester/BPJ2 - Begleitetes Projekt 2/Projekt/00_Technologien/JDBC/hibernate-release-5.1.0.Final/lib/required/jandex-2.0.0.Final.jar"/>
-	<classpathentry kind="lib" path="D:/Dropbox/Dropbox/FH/4. Semester/BPJ2 - Begleitetes Projekt 2/Projekt/00_Technologien/JDBC/hibernate-release-5.1.0.Final/lib/required/javassist-3.20.0-GA.jar"/>
-	<classpathentry kind="lib" path="D:/Dropbox/Dropbox/FH/4. Semester/BPJ2 - Begleitetes Projekt 2/Projekt/00_Technologien/JDBC/hibernate-release-5.1.0.Final/lib/required/jboss-logging-3.3.0.Final.jar"/>
-	<classpathentry kind="lib" path="D:/Dropbox/Dropbox/FH/4. Semester/BPJ2 - Begleitetes Projekt 2/Projekt/00_Technologien/JDBC/hibernate-release-5.1.0.Final/lib/envers/hibernate-envers-5.1.0.Final.jar"/>
-	<classpathentry kind="lib" path="D:/Dropbox/Dropbox/FH/4. Semester/BPJ2 - Begleitetes Projekt 2/Projekt/00_Technologien/JDBC/hibernate-release-5.1.0.Final/lib/java8/hibernate-java8-5.1.0.Final.jar"/>
-	<classpathentry kind="lib" path="D:/Dropbox/Dropbox/FH/4. Semester/BPJ2 - Begleitetes Projekt 2/Projekt/00_Technologien/JDBC/hibernate-release-5.1.0.Final/lib/jpa/hibernate-entitymanager-5.1.0.Final.jar"/>
-	<classpathentry kind="lib" path="D:/Dropbox/Dropbox/FH/4. Semester/BPJ2 - Begleitetes Projekt 2/Projekt/00_Technologien/JDBC/hibernate-release-5.1.0.Final/lib/jpa-metamodel-generator/hibernate-jpamodelgen-5.1.0.Final.jar"/>
-	<classpathentry kind="lib" path="D:/Dropbox/Dropbox/FH/4. Semester/BPJ2 - Begleitetes Projekt 2/Projekt/00_Technologien/JDBC/hibernate-release-5.1.0.Final/lib/osgi/hibernate-osgi-5.1.0.Final.jar"/>
-	<classpathentry kind="lib" path="D:/Dropbox/Dropbox/FH/4. Semester/BPJ2 - Begleitetes Projekt 2/Projekt/00_Technologien/JDBC/hibernate-release-5.1.0.Final/lib/osgi/org.osgi.compendium-4.3.1.jar"/>
-	<classpathentry kind="lib" path="D:/Dropbox/Dropbox/FH/4. Semester/BPJ2 - Begleitetes Projekt 2/Projekt/00_Technologien/JDBC/hibernate-release-5.1.0.Final/lib/osgi/org.osgi.core-4.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/xampp/required_plugins/hibernate/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/xampp/required_plugins/hibernate/classmate-1.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/xampp/required_plugins/hibernate/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/xampp/required_plugins/hibernate/geronimo-jta_1.1_spec-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/xampp/required_plugins/hibernate/hibernate-commons-annotations-5.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/xampp/required_plugins/hibernate/hibernate-core-5.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/xampp/required_plugins/hibernate/hibernate-entitymanager-5.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/xampp/required_plugins/hibernate/hibernate-envers-5.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/xampp/required_plugins/hibernate/hibernate-java8-5.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/xampp/required_plugins/hibernate/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/xampp/required_plugins/hibernate/hibernate-jpamodelgen-5.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/xampp/required_plugins/hibernate/hibernate-osgi-5.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/xampp/required_plugins/hibernate/jandex-2.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/xampp/required_plugins/hibernate/javassist-3.20.0-GA.jar"/>
+	<classpathentry kind="lib" path="C:/xampp/required_plugins/hibernate/jboss-logging-3.3.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/xampp/required_plugins/hibernate/mysql-connector-java-5.1.38-bin.jar"/>
+	<classpathentry kind="lib" path="C:/xampp/required_plugins/hibernate/org.osgi.compendium-4.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/xampp/required_plugins/hibernate/org.osgi.core-4.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/xampp/required_plugins/mysql-connector-java-5.1.38/mysql-connector-java-5.1.38-bin.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
