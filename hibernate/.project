@@ -14,11 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>src/sql/hibernate_test.sql</name>
-			<type>1</type>
-			<locationURI>PARENT-3-PROJECT_LOC/Downloads/hibernate_test.sql</locationURI>
-		</link>
-	</linkedResources>
 </projectDescription>
