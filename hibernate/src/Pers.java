@@ -3,7 +3,7 @@
 import java.io.Serializable;
 
 public class Pers implements Serializable{
-//implements Serializable für Multi-Threads
+//implements Serializable fuer Multi-Threads
 	
 	private int id;
 	private String first;

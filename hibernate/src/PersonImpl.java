@@ -19,7 +19,7 @@ public class PersonImpl {
 		Pers person = new Pers();
 		person.setId(2);
 		person.setFirst("Marge");
-		person.setLast("Johns");
+		person.setLast("Johnsons");
 		
 		s.save(person);
 		s.flush();
