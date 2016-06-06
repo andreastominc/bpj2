@@ -17,9 +17,9 @@ public class PersonImpl {
 		Transaction tx = s.beginTransaction();
 		
 		Pers person = new Pers();
-		person.setId(2);
-		person.setFirst("Marge");
-		person.setLast("Johnsons");
+		person.setId(3);
+		person.setFirst("Philipp");
+		person.setLast("Hierzer");
 		
 		s.save(person);
 		s.flush();
