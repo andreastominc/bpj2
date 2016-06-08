@@ -27,7 +27,8 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `person` (
-  `id` int(4) NOT NULL,
+  `id` int(4) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (id),  					-- spalte id als primary key definieren weils sonst nicht geht mitn auto_increment
   `first` varchar(30) NOT NULL,
   `last` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;

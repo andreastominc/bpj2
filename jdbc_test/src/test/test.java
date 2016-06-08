@@ -9,9 +9,9 @@ import java.sql.SQLException;
 public class test {
 
 	public void insertNames(String first, String last) throws Exception
-	{
-		Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/testdb","hibernate_test","hibernate_test");
-		PreparedStatement stmt = (PreparedStatement) con.prepareStatement("INSERT INTO names (first, last) VALUES " +"('"+first+"','"+last+"');");
+	{																				// ACHTUNG: hier ggf. auf Port 3306 anpassen bei euch !!!!
+		Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3307/hibernate_test","hibernate_test","hibernate_test");
+		PreparedStatement stmt = (PreparedStatement) con.prepareStatement("INSERT INTO person (first, last) VALUES " +"('"+first+"','"+last+"');");
 		stmt.executeUpdate();
 	}
 }

@@ -18,10 +18,11 @@ public class PersonImpl {
 		Session s = sf.openSession();
 		Transaction tx = s.beginTransaction();
 		
+		
 		Pers person = new Pers();
 		person.setId(3);
 		person.setFirst("Philipp");
-		person.setLast("Hierzerer");
+		person.setLast("Hierzer");
 		
 		s.save(person);
 		s.flush();
