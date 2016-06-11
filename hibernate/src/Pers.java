@@ -17,12 +17,9 @@ public class Pers implements Serializable{
 		return id;
 	}
 
-
-
 	public void setId(int id) {
 		this.id = id;
 	}
-
 
 
 	public String getFirst() {
@@ -40,6 +37,12 @@ public class Pers implements Serializable{
 	public void setLast(String last) {
 		this.last = last;
 	}
+
+	@Override
+	public String toString() {
+		return "Pers [id=" + id + ", first=" + first + ", last=" + last + "]";
+	}
+	
 	
 	
 }

@@ -52,9 +52,7 @@ public class PersonImpl {
         java.util.Iterator<Pers> iter = list.iterator();
         while (iter.hasNext()) {
         	Pers person = iter.next();
-        	System.out.println("Person: \"" + person.getFirst() +
-                          "\", " + person.getLast() +
-                          "\", " + person.getId());
+        	System.out.println(person.toString());
         }
         session.getTransaction().commit();
         System.out.println("-------------------------");
