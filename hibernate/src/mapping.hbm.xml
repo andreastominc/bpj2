@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-	<class name="Pers" table="PERSON">
-		<id name="id" column="ID" type="integer">
-			<generator class="assigned"></generator>
-		</id>
-		<property name="first" column="FIRST" type="string"></property>
-		<property name="last" column="LAST" type="string"></property>
-	</class>
+ <class name="Pers" table="PERSON">
+  <id column="ID" name="id" type="integer">
+   <generator class="assigned"/>
+  </id>
+  <property column="FIRST" generated="never" lazy="false" name="first" type="string"/>
+  <property column="LAST" generated="never" lazy="false" name="last" type="string"/>
+ </class>
+ <class name="afdb_package.AFDB_Art" table="afdb_art">
+  <id column="art_id" name="art_id" type="integer"/>
+  <property column="art_benennung" name="art_benennung" type="string"/>
+ </class>
 </hibernate-mapping>
